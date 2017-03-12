@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.antonio.encuentrahipotenochas.MainActivity">
+
+    <item
+        android:id="@+id/instrucciones"
+        android:orderInCategory="1"
+        android:title="@string/instrucciones"
+        app:showAsAction="never"
+        android:onClick="showInstrucciones" />
+
+    <item
+        android:id="@+id/nuevo_juego"
+        android:orderInCategory="2"
+        android:title="@string/nuevo_juego"
+        app:showAsAction="never"
+        android:onClick="empezarJuego"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/ajustes"
+        app:showAsAction="never"
+        android:onClick="showSeleccionDificultad"/>
+
+    <item
+        android:id="@+id/selec_personaje"
+        android:orderInCategory="4"
+        android:title="@string/selecciona_personaje"
+        android:icon="@drawable/hipo5"
+        app:showAsAction="always"
+        android:onClick="showSeleccionPersonaje" />
+
+</menu>
