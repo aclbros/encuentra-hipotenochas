@@ -16,4 +16,5 @@
     <string name="ganador">¡Enhorabuena, has encontrado todas las hipotenochas!</string>
     <string name="perdedor">Lo siento, has perdido, no hay hipotenochas ahí.</string>
     <string name="titulo_instrucciones">Instrucciones</string>
+    <string name="estenmatica">Estenmática</string>
 </resources>

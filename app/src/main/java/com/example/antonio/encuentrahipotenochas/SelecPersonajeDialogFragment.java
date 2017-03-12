@@ -40,7 +40,8 @@ public class SelecPersonajeDialogFragment extends DialogFragment implements Adap
                     }
                 });
 
-        AdaptadorSeleccion adaptadorSeleccion = new AdaptadorSeleccion(getActivity(), R.layout.selec_personaje, getResources().getStringArray(R.array.nombres));
+        AdaptadorSeleccion adaptadorSeleccion = new AdaptadorSeleccion(getActivity(),
+                R.layout.selec_personaje, getResources().getStringArray(R.array.nombres));
 
         Spinner spinnerSelecPersonaje = (Spinner) miDialogo.findViewById(R.id.spinner);
         spinnerSelecPersonaje.setAdapter(adaptadorSeleccion);
@@ -105,7 +106,7 @@ public class SelecPersonajeDialogFragment extends DialogFragment implements Adap
      * Interfaz que permite devolver el personaje seleccionado.
      */
     public interface RespSeleccPersonaje {
-        public void onPersonajeSeleccionado(int i);
+        void onPersonajeSeleccionado(int i);
     }
 
     @Override

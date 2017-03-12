@@ -39,7 +39,7 @@ public class SelecDificultadDialogFragment extends DialogFragment {
      * Interfaz que permite devolver la dificultad seleccionada.
      */
     public interface RespuestaDificultad {
-        public void onRespuestaDificultad(int i);
+        void onRespuestaDificultad(int i);
     }
 
     @Override
